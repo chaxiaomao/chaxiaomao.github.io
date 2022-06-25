@@ -1,0 +1,9 @@
+/.idea
+/.vscode
+/vendor
+*.log
+.DS_Store
+/runtime
+.env
+vendor.zip
+*.iml
