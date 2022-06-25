@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>Lith Harbor</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="keywords" content="博客," />
+
+    <link rel="icon" type="image/x-icon" href="../favicon.ico?v=2"/>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/pixel-divider.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="bg">
+        <img class="layer2" src="../imgs/wallhaven-pk2829.jpg" alt=""/>
+        <h1 class="layer1 ti">Lith Harbor</h1>
+    </div>
+    <div class="cont">
+
+        <div class="cont-center-basic">
+            <h3>制作冒险岛鼠标指针制, Linus版本</h3><br>
+            <h6 style="font-style: italic">基于网上搜的 "MapleStory Cursors" 都是 Windows 版本,基本找不到 Linus 跟 MapleStory
+                有关的东西,然后试着自己转换下了.</h6>
+        </div>
+
+
+        <div class="cont-no-padding">
+            <div style="margin-bottom: 70px">
+                <p>STEP1:</p>
+                <p>在 Windows 系统上下载 <a href="https://cursorxp.cn.uptodown.com/windows">cursorxp_free.exe<a> 并安装</p>
+                <p>下载 <a href="http://www.rw-designer.com/cursor-set/original-maplestory-white">original-maplestory-white.zip</a> 并解压</p>
+            </div>
+
+            <div style="margin-bottom: 70px">
+                <p>STEP2:</p>
+                <p>运行 CurXPCpl.exe (点击运行没反应考虑右击管理器权限运行)</p>
+                <p>按照下图顺序制作鼠标状态</p>
+                <img src="../imgs/2022-06-25_19-37.png">
+                <p>最后保存为 .CurXPTheme 格式的文件</p>
+                <p>如: original-maplestory-white.CurXPTheme</p>
+            </div>
+
+            <div style="margin-bottom: 70px">
+                <p>STEP3:</p>
+                <p>在Linus 系统上下载 <a href="https://github.com/ludiosarchive/sd2xc">sd2xc.pl</a> 这一个文件</p>
+                <p>直接执行(注意文件权限)</p>
+                <img src="../imgs/2022-06-25_20-39.png">
+                <p>提示</p>
+                <p>Can't locate Config/IniFiles.pm in @INC (you may need to install the Config::IniFiles module)</p>
+                <p>安装依赖</p>
+                <p>perl -MCPAN -e 'install Config::IniFiles'</p>
+                <br>
+                <p>提示</p>
+                <p>Can't locate Config/IniFiles.pm in @INC (you may need to install the Image::Magick module)</p>
+
+                <p>安装依赖</p>
+                <p>cpan install Image::Magick</p>
+                <img src="../imgs/2022-06-25_20-42.png">
+                <p>转换好的压缩包跟 sd2xc.pl 同目录</p>
+                <p>如: original-maplestory-white.tar.gz</p>
+            </div>
+
+            <div style="margin-bottom: 70px">
+                <p>STEP4:</p>
+                <p>最后解压转换好的包,根据自己桌面系统自行安装:)</p>
+            </div>
+        </div>
+
+
+        <footer class="cont-center-basic">
+            <div class="separator02" style="padding-top: 10%;padding-bottom: 5%"></div>
+        </footer>
+
+
+    </div>
+</div>
+
+</body>
+
+</html>
