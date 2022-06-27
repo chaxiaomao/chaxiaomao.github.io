@@ -67,6 +67,10 @@ body {
     word-wrap:break-word;
 }
 
+.cont .cont-basic {
+    max-width: 900px;
+    margin: 0 auto;
+}
 .cont .cont-center-basic {
     max-width: 900px;
     margin: 0 auto;
